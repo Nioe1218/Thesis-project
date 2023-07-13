@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 4a0076a3ea46bd745980097af91465ef
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181621
+  packageName: Third Person Flying Controller
+  packageVersion: 1.01
+  assetPath: Assets/SlugGlove Flying Assets/Scripts/Player/PlayerCollisionSphere.cs
+  uploadId: 399157

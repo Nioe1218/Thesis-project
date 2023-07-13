@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7bda631ec6e914b458e1adf6a8ecfc23
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181621
+  packageName: Third Person Flying Controller
+  packageVersion: 1.01
+  assetPath: Assets/SlugGlove Flying Assets/Material/Player/Bird Face.mat
+  uploadId: 399157

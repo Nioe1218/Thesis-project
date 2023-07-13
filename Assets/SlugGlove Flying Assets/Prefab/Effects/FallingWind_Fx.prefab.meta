@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ed77de5f169542c4da032fa6f11d21dd
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181621
+  packageName: Third Person Flying Controller
+  packageVersion: 1.01
+  assetPath: Assets/SlugGlove Flying Assets/Prefab/Effects/FallingWind_Fx.prefab
+  uploadId: 399157

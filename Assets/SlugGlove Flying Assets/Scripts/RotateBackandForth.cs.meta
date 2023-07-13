@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8526a90b2918b36449a344fef9999f1a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181621
+  packageName: Third Person Flying Controller
+  packageVersion: 1.01
+  assetPath: Assets/SlugGlove Flying Assets/Scripts/RotateBackandForth.cs
+  uploadId: 399157

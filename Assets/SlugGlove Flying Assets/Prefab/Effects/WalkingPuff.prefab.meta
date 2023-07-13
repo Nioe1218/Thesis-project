@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: fb60f6b0edc9c944e964ffdf53c122f1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181621
+  packageName: Third Person Flying Controller
+  packageVersion: 1.01
+  assetPath: Assets/SlugGlove Flying Assets/Prefab/Effects/WalkingPuff.prefab
+  uploadId: 399157

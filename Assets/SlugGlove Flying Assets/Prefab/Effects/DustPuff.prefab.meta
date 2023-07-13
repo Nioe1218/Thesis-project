@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c60479e3d52a1e148bc3e9d5e1952d4c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181621
+  packageName: Third Person Flying Controller
+  packageVersion: 1.01
+  assetPath: Assets/SlugGlove Flying Assets/Prefab/Effects/DustPuff.prefab
+  uploadId: 399157

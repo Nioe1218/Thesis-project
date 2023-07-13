@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4a1d3de3e4779fa4b8a0cbcb5cfc9d10
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181621
+  packageName: Third Person Flying Controller
+  packageVersion: 1.01
+  assetPath: Assets/SlugGlove Flying Assets/Animation/Bird.controller
+  uploadId: 399157

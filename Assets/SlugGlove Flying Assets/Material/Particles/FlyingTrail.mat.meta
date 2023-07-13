@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 50dadd29c5ed35b459d4bb93a63fe2d1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181621
+  packageName: Third Person Flying Controller
+  packageVersion: 1.01
+  assetPath: Assets/SlugGlove Flying Assets/Material/Particles/FlyingTrail.mat
+  uploadId: 399157

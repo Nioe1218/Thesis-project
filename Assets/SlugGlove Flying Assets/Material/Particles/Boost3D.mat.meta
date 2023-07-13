@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ab1e259056d730c4581a64434a464eb7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181621
+  packageName: Third Person Flying Controller
+  packageVersion: 1.01
+  assetPath: Assets/SlugGlove Flying Assets/Material/Particles/Boost3D.mat
+  uploadId: 399157

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 54b9458f4a94171478d20cd3a099470d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181621
+  packageName: Third Person Flying Controller
+  packageVersion: 1.01
+  assetPath: Assets/SlugGlove Flying Assets/Prefab/Effects/FlyingFx/Flying Wing Trail
+    Fx.prefab
+  uploadId: 399157

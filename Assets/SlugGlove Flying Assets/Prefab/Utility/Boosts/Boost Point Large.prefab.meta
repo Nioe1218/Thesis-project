@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7c5be2ad82d7a0a4584a9594abc3809e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181621
+  packageName: Third Person Flying Controller
+  packageVersion: 1.01
+  assetPath: Assets/SlugGlove Flying Assets/Prefab/Utility/Boosts/Boost Point Large.prefab
+  uploadId: 399157

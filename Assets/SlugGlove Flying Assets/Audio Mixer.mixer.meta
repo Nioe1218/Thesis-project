@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dc8ae349f0bba2b41a5cc466a74e5a6b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181621
+  packageName: Third Person Flying Controller
+  packageVersion: 1.01
+  assetPath: Assets/SlugGlove Flying Assets/Audio Mixer.mixer
+  uploadId: 399157
