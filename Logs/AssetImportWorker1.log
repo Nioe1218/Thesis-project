@@ -15,7 +15,7 @@ D:/Thesis Project/Thesis-project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60388
+52406
 Successfully changed project path to: D:/Thesis Project/Thesis-project
 D:/Thesis Project/Thesis-project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/Thesis Project/Thesis-project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4424] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 1783725684 [EditorId] 1783725684 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LQHPQG2V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11724] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 405158432 [EditorId] 405158432 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LQHPQG2V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4424] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 1783725684 [EditorId] 1783725684 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LQHPQG2V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11724] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 405158432 [EditorId] 405158432 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LQHPQG2V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 6.93 ms, found 3 plugins.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 7.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.1.3f1 (e00e24c187a5)
 [Subsystems] Discovering subsystems at path D:/360Downloads/2023.1.3f1/Editor/Data/Resources/UnitySubsystems
@@ -69,7 +69,7 @@ Initialize mono
 Mono path[0] = 'D:/360Downloads/2023.1.3f1/Editor/Data/Managed'
 Mono path[1] = 'D:/360Downloads/2023.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/360Downloads/2023.1.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -83,41 +83,41 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: D:/360Downloads/2023.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002648 seconds.
-- Loaded All Assemblies, in  0.383 seconds
+Registered in 0.002498 seconds.
+- Loaded All Assemblies, in  0.355 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.328 seconds
-Domain Reload Profiling: 711ms
-	BeginReloadAssembly (140ms)
+- Finished resetting the current domain, in  0.265 seconds
+Domain Reload Profiling: 621ms
+	BeginReloadAssembly (138ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (154ms)
-		LoadAssemblies (139ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (134ms)
+		LoadAssemblies (138ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (150ms)
-			TypeCache.Refresh (149ms)
-				TypeCache.ScanAssembly (136ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (329ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (118ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (266ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (279ms)
+		SetupLoadedEditorAssemblies (225ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (5ms)
+			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (188ms)
-			ProcessInitializeOnLoadMethodAttributes (72ms)
+			ProcessInitializeOnLoadAttributes (154ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -140,50 +140,50 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image D:\Thesis Project\Thesis-project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Thesis Project\Thesis-project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.970 seconds
-Refreshing native plugins compatible for Editor in 4.08 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.868 seconds
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.797 seconds
-Domain Reload Profiling: 1767ms
-	BeginReloadAssembly (329ms)
+- Finished resetting the current domain, in  0.717 seconds
+Domain Reload Profiling: 1585ms
+	BeginReloadAssembly (301ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (36ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (562ms)
-		LoadAssemblies (331ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (485ms)
+		LoadAssemblies (307ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (349ms)
-			TypeCache.Refresh (332ms)
-				TypeCache.ScanAssembly (319ms)
+		AnalyzeDomain (294ms)
+			TypeCache.Refresh (277ms)
+				TypeCache.ScanAssembly (266ms)
 			ScanForSourceGeneratedMonoScriptInfo (13ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (798ms)
+	FinalizeReload (718ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (567ms)
+		SetupLoadedEditorAssemblies (508ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (460ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (410ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (12ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (53.6 KB). Loaded Objects now: 3699.
-Memory consumption went from 195.3 MB to 195.2 MB.
-Total: 6.652700 ms (FindLiveObjects: 0.243400 ms CreateObjectMapping: 0.324100 ms MarkObjects: 5.928400 ms  DeleteObjects: 0.155300 ms)
+Unloading 31 unused Assets / (54.0 KB). Loaded Objects now: 3699.
+Memory consumption went from 195.3 MB to 195.3 MB.
+Total: 4.464000 ms (FindLiveObjects: 0.224500 ms CreateObjectMapping: 0.103900 ms MarkObjects: 4.021400 ms  DeleteObjects: 0.113200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -200,164 +200,40 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 149402.838467 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(d9934d53ae0969a46b2b1f7836b9e82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(d9934d53ae0969a46b2b1f7836b9e82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61de6a4ba80044d5cd34477081740dd') in 0.019003 seconds
+  Time since last request: 160033.473625 seconds.
+  path: Assets/SlugGlove Flying Assets/Prefab/Utility/Boosts/Boost Point Small.prefab
+  artifactKey: Guid(2a109ae796550364cab2d12393f496f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Prefab/Utility/Boosts/Boost Point Small.prefab using Guid(2a109ae796550364cab2d12393f496f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Refreshing native plugins compatible for Editor in 2.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: '0f8188cf9c7228d285061b8a9cb14b2e') in 0.113349 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 48
 ========================================================================
 Received Import Request.
-  Time since last request: 25.785591 seconds.
-  path: Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Red/Column.prefab
-  artifactKey: Guid(45cafc8dd977134448b2a3223574a7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Red/Column.prefab using Guid(45cafc8dd977134448b2a3223574a7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9eb41ee5bb3d2b03a9c5418c57695c') in 0.081179 seconds
+  Time since last request: 0.000043 seconds.
+  path: Assets/SlugGlove Flying Assets/Prefab/Utility/Boosts/Boost Point Normal.prefab
+  artifactKey: Guid(1fedebd3085376f42adaba975f76d3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Prefab/Utility/Boosts/Boost Point Normal.prefab using Guid(1fedebd3085376f42adaba975f76d3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Refreshing native plugins compatible for Editor in 2.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ -> (artifact id: 'b9b205ad719c6bdf75c87aa28d0d2ec5') in 0.017223 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 47
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Red/Rock 2.prefab
-  artifactKey: Guid(aa75c086031e71a4381954912768557a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Red/Rock 2.prefab using Guid(aa75c086031e71a4381954912768557a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a9f7d6510a33005a1b7974ab0c79bb') in 0.011662 seconds
+  Time since last request: 47.351220 seconds.
+  path: Assets/SlugGlove Flying Assets/Prefab/Effects/JumpNormal.prefab
+  artifactKey: Guid(065e3af231c3cc04da8e68a013cf0ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Prefab/Effects/JumpNormal.prefab using Guid(065e3af231c3cc04da8e68a013cf0ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b88bccb055ce40d129e89820ba122b5') in 0.007999 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Red/Rock 5.prefab
-  artifactKey: Guid(8d4eeae5bddf13649809bb92fe15f162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Red/Rock 5.prefab using Guid(8d4eeae5bddf13649809bb92fe15f162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb77381a5807f75c69e1e162ac3e0d30') in 0.012333 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Red/Pedastal.prefab
-  artifactKey: Guid(1fc48977f04760b4c8e9330e3083c4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Red/Pedastal.prefab using Guid(1fc48977f04760b4c8e9330e3083c4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38111cff99c988974ed03ec69af250bd') in 0.017196 seconds
+  path: Assets/SlugGlove Flying Assets/Prefab/Effects/WalkingPuff.prefab
+  artifactKey: Guid(fb60f6b0edc9c944e964ffdf53c122f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Prefab/Effects/WalkingPuff.prefab using Guid(fb60f6b0edc9c944e964ffdf53c122f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d75341b39648587b937bf4ef184b6b0') in 0.007965 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Red/Jagged Rock 3.prefab
-  artifactKey: Guid(9a2fde3f910cb174e83ae7690d5d7c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Red/Jagged Rock 3.prefab using Guid(9a2fde3f910cb174e83ae7690d5d7c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d9f500e7dbba47fcaf47428cbe1c0c') in 0.006199 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Red/Rock 1.prefab
-  artifactKey: Guid(a676be3323aabf64382c094dbeae16ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Red/Rock 1.prefab using Guid(a676be3323aabf64382c094dbeae16ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa8c106fa5424c168aa1c2db3000679') in 0.007839 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Red/Rock 6.prefab
-  artifactKey: Guid(6ded9012eae17184bb89f8a8849b9fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Red/Rock 6.prefab using Guid(6ded9012eae17184bb89f8a8849b9fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f338a8835aea126ee5b7472a61c0cb4c') in 0.007931 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 6.213369 seconds.
-  path: Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Light/Jagged Rock 1.prefab
-  artifactKey: Guid(28fdca7c4dd13ac4487e4b3356af0ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Light/Jagged Rock 1.prefab using Guid(28fdca7c4dd13ac4487e4b3356af0ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28380f521d1565270b949d1748c42ff') in 0.007264 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Light/Rock 2.prefab
-  artifactKey: Guid(e28fdac09f4ddc64681c09dbc9656bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Light/Rock 2.prefab using Guid(e28fdac09f4ddc64681c09dbc9656bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19007e4b6b43b35bc6121a55fc4d30d') in 0.009402 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Light/Pedastal.prefab
-  artifactKey: Guid(cd30e9b06313aaf4abdba37e71433783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Light/Pedastal.prefab using Guid(cd30e9b06313aaf4abdba37e71433783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d264b4e005af6d1e7eb7929354b6b8') in 0.007286 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Light/Jagged Rock 2.prefab
-  artifactKey: Guid(d6b5bd223e4782f4c880db333887ad32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Light/Jagged Rock 2.prefab using Guid(d6b5bd223e4782f4c880db333887ad32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a0bc5706da3093c5cdf6853956a9ec') in 0.007626 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Light/Rock 4.prefab
-  artifactKey: Guid(f3da7f30f5dcb4b45a1034cb28a3d1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Light/Rock 4.prefab using Guid(f3da7f30f5dcb4b45a1034cb28a3d1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c616d3a88e68ab6d86420e154aa119') in 0.008065 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Light/Rock 5.prefab
-  artifactKey: Guid(b94b857d23c1f0a4aa6ff68165116c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Light/Rock 5.prefab using Guid(b94b857d23c1f0a4aa6ff68165116c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2cdc6d6d9cb3e1e2163858538a863d') in 0.007785 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 2.259990 seconds.
-  path: Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Detail/Brick 3.prefab
-  artifactKey: Guid(9f154e15bbca5f34f82b492ce341108b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Detail/Brick 3.prefab using Guid(9f154e15bbca5f34f82b492ce341108b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61884478069e4c3fe483e0e706bd65c') in 0.007266 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Detail/Pebble 3.prefab
-  artifactKey: Guid(fa54023148063424fbd94d63d3c50762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Detail/Pebble 3.prefab using Guid(fa54023148063424fbd94d63d3c50762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe240bc41000b0a6ea581f53dc1df61a') in 0.021648 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Detail/Plate 3.prefab
-  artifactKey: Guid(7bcd23296f8ce96449f4002f42045a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Detail/Plate 3.prefab using Guid(7bcd23296f8ce96449f4002f42045a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b75684994492cd34e58cc8e27b62c0') in 0.008787 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Detail/Plate 1.prefab
-  artifactKey: Guid(01f4b387d964bf140aeaf383aa941d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Detail/Plate 1.prefab using Guid(01f4b387d964bf140aeaf383aa941d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f46693a01af3308554701f21ed7a66') in 0.013656 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Detail/Brick 4.prefab
-  artifactKey: Guid(0c64a77aa0ef88a408ba402c297a8737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Detail/Brick 4.prefab using Guid(0c64a77aa0ef88a408ba402c297a8737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b360c166a8af83b7a4f03de6f2572b') in 0.006070 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Detail/Plate 2.prefab
-  artifactKey: Guid(259359bcbda1fd143a8184eb03ddab4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desolate - Low Poly Desert/Content/Prefabs/Rocks/Detail/Plate 2.prefab using Guid(259359bcbda1fd143a8184eb03ddab4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41edd72cb64cea1d5b4eea1810fd02ec') in 0.006567 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 11
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
