@@ -15,9 +15,15 @@ D:/unity/Thesis project/Thesis-project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 64737
 Successfully changed project path to: D:/unity/Thesis project/Thesis-project
 D:/unity/Thesis project/Thesis-project
+=======
+58002
+Successfully changed project path to: D:/Thesis Project/Thesis-project
+D:/Thesis Project/Thesis-project
+>>>>>>> b254d49d830e4b4b0e793a17cddbe59a2299a588
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,11 +55,19 @@ D:/unity/Thesis project/Thesis-project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [29648] Host "[IP] 192.168.1.145 [Port] 0 [Flags] 2 [Guid] 3317183059 [EditorId] 3317183059 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FCN3C3F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [29648] Host "[IP] 192.168.1.145 [Port] 0 [Flags] 2 [Guid] 3317183059 [EditorId] 3317183059 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FCN3C3F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 3.25 ms, found 3 plugins.
+=======
+Player connection [22404] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 3510171946 [EditorId] 3510171946 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LQHPQG2V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22404] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 3510171946 [EditorId] 3510171946 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LQHPQG2V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 8.27 ms, found 3 plugins.
+>>>>>>> b254d49d830e4b4b0e793a17cddbe59a2299a588
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.1.3f1 (e00e24c187a5)
 [Subsystems] Discovering subsystems at path D:/unity/2023.1.3f1/Editor/Data/Resources/UnitySubsystems
@@ -66,10 +80,17 @@ Direct3D:
     VRAM:     8002 MB
     Driver:   31.0.15.3141
 Initialize mono
+<<<<<<< HEAD
 Mono path[0] = 'D:/unity/2023.1.3f1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/2023.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/unity/2023.1.3f1/Editor/Data/MonoBleedingEdge/etc'
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+=======
+Mono path[0] = 'D:/360Downloads/2023.1.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/360Downloads/2023.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/360Downloads/2023.1.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+>>>>>>> b254d49d830e4b4b0e793a17cddbe59a2299a588
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -82,23 +103,36 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
+<<<<<<< HEAD
 Register platform support module: D:/unity/2023.1.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/unity/2023.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.001786 seconds.
 - Loaded All Assemblies, in  0.352 seconds
+=======
+Register platform support module: D:/360Downloads/2023.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002517 seconds.
+- Loaded All Assemblies, in  0.392 seconds
+>>>>>>> b254d49d830e4b4b0e793a17cddbe59a2299a588
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.268 seconds
 Domain Reload Profiling: 620ms
 	BeginReloadAssembly (106ms)
+=======
+- Finished resetting the current domain, in  0.281 seconds
+Domain Reload Profiling: 674ms
+	BeginReloadAssembly (142ms)
+>>>>>>> b254d49d830e4b4b0e793a17cddbe59a2299a588
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (15ms)
 	initialDomainReloadingComplete (43ms)
@@ -111,15 +145,35 @@ Domain Reload Profiling: 620ms
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
 	FinalizeReload (268ms)
+=======
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (142ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (140ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (282ms)
+>>>>>>> b254d49d830e4b4b0e793a17cddbe59a2299a588
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (227ms)
+		SetupLoadedEditorAssemblies (237ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (4ms)
+<<<<<<< HEAD
 			BeforeProcessingInitializeOnLoad (6ms)
 			ProcessInitializeOnLoadAttributes (156ms)
 			ProcessInitializeOnLoadMethodAttributes (51ms)
+=======
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (162ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+>>>>>>> b254d49d830e4b4b0e793a17cddbe59a2299a588
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -140,20 +194,34 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+<<<<<<< HEAD
 Symbol file LoadedFromMemory doesn't match image D:\unity\Thesis project\Thesis-project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\unity\Thesis project\Thesis-project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 - Loaded All Assemblies, in  0.869 seconds
 Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+=======
+Symbol file LoadedFromMemory doesn't match image D:\Thesis Project\Thesis-project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Thesis Project\Thesis-project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.903 seconds
+Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
+>>>>>>> b254d49d830e4b4b0e793a17cddbe59a2299a588
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.718 seconds
 Domain Reload Profiling: 1586ms
 	BeginReloadAssembly (289ms)
+=======
+- Finished resetting the current domain, in  0.745 seconds
+Domain Reload Profiling: 1649ms
+	BeginReloadAssembly (324ms)
+>>>>>>> b254d49d830e4b4b0e793a17cddbe59a2299a588
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 		CreateAndSetChildDomain (30ms)
 	RebuildCommonClasses (40ms)
 	RebuildNativeTypeToScriptingClass (12ms)
@@ -187,6 +255,41 @@ Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (54.0 KB). Loaded Objects now: 3699.
 Memory consumption went from 198.8 MB to 198.8 MB.
 Total: 4.582900 ms (FindLiveObjects: 0.243400 ms CreateObjectMapping: 0.226700 ms MarkObjects: 4.020300 ms  DeleteObjects: 0.091600 ms)
+=======
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (492ms)
+		LoadAssemblies (321ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (283ms)
+			TypeCache.Refresh (262ms)
+				TypeCache.ScanAssembly (246ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (746ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (526ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (431ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3155 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (53.8 KB). Loaded Objects now: 3721.
+Memory consumption went from 204.4 MB to 204.4 MB.
+Total: 7.695300 ms (FindLiveObjects: 0.426400 ms CreateObjectMapping: 0.363600 ms MarkObjects: 6.734500 ms  DeleteObjects: 0.169500 ms)
+>>>>>>> b254d49d830e4b4b0e793a17cddbe59a2299a588
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -201,32 +304,62 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 16036.367889 seconds.
   path: Assets/New Terrain 1.asset
   artifactKey: Guid(5c5979be1cd43334baec6efb07332582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/New Terrain 1.asset using Guid(5c5979be1cd43334baec6efb07332582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234e630ca985a8ad8b91d527ee921ed4') in 0.014497 seconds
+=======
+  Time since last request: 676292.780946 seconds.
+  path: Assets/Malbers Animations/Animals Packs
+  artifactKey: Guid(887156d31a544f64cb78e3e90e0b51de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animals Packs using Guid(887156d31a544f64cb78e3e90e0b51de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a607a7d9992088bdcd1d1ba311470e71') in 0.002964 seconds
+>>>>>>> b254d49d830e4b4b0e793a17cddbe59a2299a588
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 0.000035 seconds.
   path: Assets/New Terrain.asset
   artifactKey: Guid(d9934d53ae0969a46b2b1f7836b9e82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/New Terrain.asset using Guid(d9934d53ae0969a46b2b1f7836b9e82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Pebble 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
 The tree Basin 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
  -> (artifact id: 'ca7cb1b672f6366eae063f88b653cddc') in 0.016346 seconds
+=======
+  Time since last request: 0.000098 seconds.
+  path: Assets/Malbers Animations
+  artifactKey: Guid(31031428e52c2c948a67d165ffcd020e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations using Guid(31031428e52c2c948a67d165ffcd020e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9241b8230c5f256224993f1719ae1b97') in 0.001032 seconds
+>>>>>>> b254d49d830e4b4b0e793a17cddbe59a2299a588
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 18
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 61.367343 seconds.
   path: Assets/SlugGlove Flying Assets/Material/Areas/Outline.mat
   artifactKey: Guid(a3f47cee58948e84c80e671474ff5b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/SlugGlove Flying Assets/Material/Areas/Outline.mat using Guid(a3f47cee58948e84c80e671474ff5b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e415750755dbc3a5246e0e106d6ff38') in 0.063598 seconds
+=======
+  Time since last request: 0.000102 seconds.
+  path: Assets/Malbers Animations/README!.asset
+  artifactKey: Guid(8357ab50d0248b347a61fe6d6b730ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/README!.asset using Guid(8357ab50d0248b347a61fe6d6b730ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ac389ed153727bd904a07d64e94140') in 0.025626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.304873 seconds.
+  path: Assets/Malbers Animations/Animals Packs/01 Forest Pack/Deer
+  artifactKey: Guid(56c4afd13560eeb4d834e524c7a3a01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animals Packs/01 Forest Pack/Deer using Guid(56c4afd13560eeb4d834e524c7a3a01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3a0f95025a2b325eb5e24561472f65') in 0.000441 seconds
+>>>>>>> b254d49d830e4b4b0e793a17cddbe59a2299a588
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 0.939501 seconds.
   path: Assets/SlugGlove Flying Assets/Material/Boost Ring.mat
   artifactKey: Guid(ecee84d78cddd64459b8b2baf4712306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -481,6 +614,14 @@ Received Import Request.
 Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_dead_cut.prefab using Guid(7bbef63b5bd52bc4bb03cdc6cbb94a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3083c86ce91900da7b8866142e7a8c') in 0.010972 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
+=======
+  Time since last request: 1.776754 seconds.
+  path: Assets/Malbers Animations/Animals Packs/01 Forest Pack/Deer/Deer Base Demo.unity
+  artifactKey: Guid(9248df6bc203e494fabc260a2ce209c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Malbers Animations/Animals Packs/01 Forest Pack/Deer/Deer Base Demo.unity using Guid(9248df6bc203e494fabc260a2ce209c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1717bb5cf0dcc058237d37d22648874a') in 0.000379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+>>>>>>> b254d49d830e4b4b0e793a17cddbe59a2299a588
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
@@ -515,12 +656,73 @@ Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 24
 ========================================================================
 Received Prepare
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 3 unused Assets / (0.8 KB). Loaded Objects now: 3748.
 Memory consumption went from 146.7 MB to 146.7 MB.
 Total: 4.609400 ms (FindLiveObjects: 0.263000 ms CreateObjectMapping: 0.220100 ms MarkObjects: 4.072700 ms  DeleteObjects: 0.052800 ms)
+=======
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\Thesis Project\Thesis-project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Thesis Project\Thesis-project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.677 seconds
+Refreshing native plugins compatible for Editor in 2.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.035 seconds
+Domain Reload Profiling: 1712ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (429ms)
+		LoadAssemblies (275ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (256ms)
+			TypeCache.Refresh (251ms)
+				TypeCache.ScanAssembly (239ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1035ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (500ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (395ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3119 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.6 KB). Loaded Objects now: 3726.
+Memory consumption went from 197.4 MB to 197.4 MB.
+Total: 5.002100 ms (FindLiveObjects: 0.221700 ms CreateObjectMapping: 0.201500 ms MarkObjects: 4.525200 ms  DeleteObjects: 0.052600 ms)
+>>>>>>> b254d49d830e4b4b0e793a17cddbe59a2299a588
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):

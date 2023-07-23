@@ -359,8 +359,17 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualStudio.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+<<<<<<< HEAD
 -analyzer:"D:/unity/2023.1.3f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"D:/unity/2023.1.3f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+=======
+-analyzer:"D:/360Downloads/2023.1.3f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
+-analyzer:"D:/360Downloads/2023.1.3f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Malbers Animations/Common/Scripts/Events/UnityEventRaiser.cs"
+"Assets/Malbers Animations/Common/Scripts/Readme/Readme.cs"
+"Assets/Malbers Animations/Common/Scripts/Utilities/UnityUtils.cs"
+"Assets/Malbers Animations/Common/Scripts/Utilities/UseTransform.cs"
+>>>>>>> b254d49d830e4b4b0e793a17cddbe59a2299a588
 "Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/MouseLook.cs"
 "Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PlayerMovement.cs"
 "Assets/SlugGlove Flying Assets/Scripts/BoostPadCtrl.cs"

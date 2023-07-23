@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/LevelScenes/Environment_Free.unity
+=======
+- path: Assets/Malbers Animations/Animals Packs/01 Forest Pack/Deer/Deer Base Demo.unity
+>>>>>>> b254d49d830e4b4b0e793a17cddbe59a2299a588
   isLoaded: 1
   isActive: 1
   isSubScene: 0
