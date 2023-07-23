@@ -66,8 +66,12 @@
     <Compile Include="Assets\SlugGlove Flying Assets\Scripts\PlayAudio.cs" />
     <Compile Include="Assets\SlugGlove Flying Assets\Scripts\UI\UIControls.cs" />
     <Compile Include="Assets\SlugGlove Flying Assets\Scripts\Player\AnimationEffects.cs" />
+    <Compile Include="Assets\Malbers Animations\Common\Scripts\Events\UnityEventRaiser.cs" />
     <Compile Include="Assets\SlugGlove Flying Assets\Scripts\Rotate.cs" />
+    <Compile Include="Assets\Malbers Animations\Common\Scripts\Utilities\UseTransform.cs" />
     <Compile Include="Assets\SlugGlove Flying Assets\Scripts\Player\DetectCollision.cs" />
+    <Compile Include="Assets\Malbers Animations\Common\Scripts\Readme\Readme.cs" />
+    <Compile Include="Assets\Malbers Animations\Common\Scripts\Utilities\UnityUtils.cs" />
     <Compile Include="Assets\SlugGlove Flying Assets\Scripts\DestroyObject.cs" />
     <Compile Include="Assets\SlugGlove Flying Assets\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Polytope Studio\Lowpoly_Demos\Environment_Free\Helpers\MouseLook.cs" />
@@ -80,20 +84,36 @@
     <Compile Include="Assets\SlugGlove Flying Assets\Scripts\CameraFollowTarget.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Malbers Animations\Common\Shaders\Mask8Toon.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Water_Shader_WebGl.shader" />
+    <None Include="Assets\Malbers Animations\Common\Shaders\DragonEggs_Shader.shader" />
+    <None Include="Assets\Malbers Animations\Common\Shaders\Color4x2.shader" />
+    <None Include="Assets\Malbers Animations\Common\Shaders\Color4x4.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Plants_Shader.shader" />
+    <None Include="Assets\Malbers Animations\Common\Shaders\Mask4Toon.shader" />
+    <None Include="Assets\Malbers Animations\Common\Shaders\Mask4Realistic.shader" />
+    <None Include="Assets\Malbers Animations\Common\Shaders\Golem Shader.shader" />
+    <None Include="Assets\Malbers Animations\Common\Shaders\Color3x3.shader" />
+    <None Include="Assets\Malbers Animations\Common\Shaders\Color4x3.shader" />
+    <None Include="Assets\Malbers Animations\Common\Shaders\Wind Shader.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Opaque_Shader_VS.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Opaque_Shader.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Foliage_Shader.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Water_Shader.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Flowers_Shader.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Rock_Shader_VS.shader" />
+    <None Include="Assets\Malbers Animations\Common\Shaders\AnisotropicCircular.shader" />
+    <None Include="Assets\Malbers Animations\Common\Shaders\AnisotropicWard.shader" />
+    <None Include="Assets\Malbers Animations\Common\Shaders\MWater2.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Plants_Shader_VS.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Flowers_Shader_VS.shader" />
+    <None Include="Assets\Malbers Animations\Common\Shaders\Color4x2 Emission.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Rock_Shader.shader" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\VS_indirect.cginc" />
     <None Include="Assets\Polytope Studio\Lowpoly_Environments\Sources\Shaders\PT_Vegetation_Foliage_Shader_VS.shader" />
+    <None Include="Assets\Malbers Animations\Common\Shaders\Mask8Realistic.shader" />
     <None Include="Assets\SlugGlove Flying Assets\Player Controls [ReadMe].txt" />
+    <None Include="Assets\Malbers Animations\Common\Fonts\OpenSans\License!.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Desolate - Low Poly Desert/Scenes/Red Canyon.unity
+- path: Assets/Malbers Animations/Animals Packs/01 Forest Pack/Deer/Deer Base Demo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
