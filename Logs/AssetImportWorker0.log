@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2023.1/staging' branch; Version is '2023.1.3f1 (e00e24c187a5) revision 14683684'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16252 MB
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'zh' Physical Memory: 16299 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\360Downloads\2023.1.3f1\Editor\Unity.exe
+D:\unity\2023.1.3f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Thesis Project/Thesis-project
+D:/unity/Thesis project/Thesis-project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52406
-Successfully changed project path to: D:/Thesis Project/Thesis-project
-D:/Thesis Project/Thesis-project
+64737
+Successfully changed project path to: D:/unity/Thesis project/Thesis-project
+D:/unity/Thesis project/Thesis-project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,27 +49,27 @@ D:/Thesis Project/Thesis-project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22572] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 1065127547 [EditorId] 1065127547 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LQHPQG2V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [29648] Host "[IP] 192.168.1.145 [Port] 0 [Flags] 2 [Guid] 3317183059 [EditorId] 3317183059 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FCN3C3F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22572] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 1065127547 [EditorId] 1065127547 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-LQHPQG2V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29648] Host "[IP] 192.168.1.145 [Port] 0 [Flags] 2 [Guid] 3317183059 [EditorId] 3317183059 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FCN3C3F) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 7.50 ms, found 3 plugins.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 3.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.1.3f1 (e00e24c187a5)
-[Subsystems] Discovering subsystems at path D:/360Downloads/2023.1.3f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Thesis Project/Thesis-project/Assets
+[Subsystems] Discovering subsystems at path D:/unity/2023.1.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/Thesis project/Thesis-project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x24dd)
+    Renderer: NVIDIA GeForce RTX 2080 (ID=0x1e87)
     Vendor:   NVIDIA
-    VRAM:     8033 MB
-    Driver:   31.0.15.3168
+    VRAM:     8002 MB
+    Driver:   31.0.15.3141
 Initialize mono
-Mono path[0] = 'D:/360Downloads/2023.1.3f1/Editor/Data/Managed'
-Mono path[1] = 'D:/360Downloads/2023.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/360Downloads/2023.1.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
+Mono path[0] = 'D:/unity/2023.1.3f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2023.1.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2023.1.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -82,30 +82,32 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
-Register platform support module: D:/360Downloads/2023.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002437 seconds.
+Register platform support module: D:/unity/2023.1.3f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/unity/2023.1.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001786 seconds.
 - Loaded All Assemblies, in  0.352 seconds
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 - Finished resetting the current domain, in  0.268 seconds
 Domain Reload Profiling: 620ms
-	BeginReloadAssembly (137ms)
+	BeginReloadAssembly (106ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (132ms)
-		LoadAssemblies (136ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (157ms)
+		LoadAssemblies (105ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (129ms)
-			TypeCache.Refresh (128ms)
-				TypeCache.ScanAssembly (116ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (154ms)
+				TypeCache.ScanAssembly (143ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
 	FinalizeReload (268ms)
@@ -113,11 +115,11 @@ Domain Reload Profiling: 620ms
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (227ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
+			InitializePlatformSupportModulesInManaged (9ms)
 			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (6ms)
 			ProcessInitializeOnLoadAttributes (156ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -138,52 +140,53 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image D:\Thesis Project\Thesis-project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Thesis Project\Thesis-project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.884 seconds
-Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image D:\unity\Thesis project\Thesis-project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity\Thesis project\Thesis-project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.869 seconds
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.732 seconds
-Domain Reload Profiling: 1616ms
-	BeginReloadAssembly (306ms)
+- Finished resetting the current domain, in  0.718 seconds
+Domain Reload Profiling: 1586ms
+	BeginReloadAssembly (289ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (500ms)
-		LoadAssemblies (309ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (494ms)
+		LoadAssemblies (256ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (309ms)
-			TypeCache.Refresh (294ms)
-				TypeCache.ScanAssembly (280ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (732ms)
+		AnalyzeDomain (335ms)
+			TypeCache.Refresh (310ms)
+				TypeCache.ScanAssembly (295ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (718ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (515ms)
+		SetupLoadedEditorAssemblies (500ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (413ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (402ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3133 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (53.9 KB). Loaded Objects now: 3699.
-Memory consumption went from 195.3 MB to 195.3 MB.
-Total: 4.375000 ms (FindLiveObjects: 0.212100 ms CreateObjectMapping: 0.102500 ms MarkObjects: 3.934800 ms  DeleteObjects: 0.124300 ms)
+Unloading 31 unused Assets / (54.0 KB). Loaded Objects now: 3699.
+Memory consumption went from 198.8 MB to 198.8 MB.
+Total: 4.582900 ms (FindLiveObjects: 0.243400 ms CreateObjectMapping: 0.226700 ms MarkObjects: 4.020300 ms  DeleteObjects: 0.091600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -195,127 +198,329 @@ AssetImportParameters requested are different than current active one (requested
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 160033.490156 seconds.
-  path: Assets/SlugGlove Flying Assets/Prefab/Utility/Boosts
-  artifactKey: Guid(1b24b365d09485e4faf84fdca6ac6d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SlugGlove Flying Assets/Prefab/Utility/Boosts using Guid(1b24b365d09485e4faf84fdca6ac6d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73818a3e0de6dced7c3b79721c60d1d6') in 0.002918 seconds
+  Time since last request: 16036.367889 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(5c5979be1cd43334baec6efb07332582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(5c5979be1cd43334baec6efb07332582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234e630ca985a8ad8b91d527ee921ed4') in 0.014497 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/SlugGlove Flying Assets/Prefab/Utility
-  artifactKey: Guid(8996861280ba37a4e9b968cd075b92ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SlugGlove Flying Assets/Prefab/Utility using Guid(8996861280ba37a4e9b968cd075b92ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc54d05e58870cb8c38e8c093c357b60') in 0.000554 seconds
+  Time since last request: 0.000035 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(d9934d53ae0969a46b2b1f7836b9e82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(d9934d53ae0969a46b2b1f7836b9e82e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Pebble 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Basin 1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: 'ca7cb1b672f6366eae063f88b653cddc') in 0.016346 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 18
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/SlugGlove Flying Assets/Prefab
-  artifactKey: Guid(10a6c08ec9481cc4882149817f43f238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SlugGlove Flying Assets/Prefab using Guid(10a6c08ec9481cc4882149817f43f238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb42d3b9849e95c33917d2d77a6ba447') in 0.000324 seconds
+  Time since last request: 61.367343 seconds.
+  path: Assets/SlugGlove Flying Assets/Material/Areas/Outline.mat
+  artifactKey: Guid(a3f47cee58948e84c80e671474ff5b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Material/Areas/Outline.mat using Guid(a3f47cee58948e84c80e671474ff5b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e415750755dbc3a5246e0e106d6ff38') in 0.063598 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/SlugGlove Flying Assets/Prefab/Utility/Boosts/Boost Point Large.prefab
-  artifactKey: Guid(7c5be2ad82d7a0a4584a9594abc3809e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SlugGlove Flying Assets/Prefab/Utility/Boosts/Boost Point Large.prefab using Guid(7c5be2ad82d7a0a4584a9594abc3809e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Refreshing native plugins compatible for Editor in 2.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
- -> (artifact id: 'ded8fbebcf438af832c155916415385e') in 0.103140 seconds
+  Time since last request: 0.939501 seconds.
+  path: Assets/SlugGlove Flying Assets/Material/Boost Ring.mat
+  artifactKey: Guid(ecee84d78cddd64459b8b2baf4712306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Material/Boost Ring.mat using Guid(ecee84d78cddd64459b8b2baf4712306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1594d0d9fde2493ad3c85aa1cfcbcf95') in 0.007447 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 47.357855 seconds.
-  path: Assets/SlugGlove Flying Assets/Prefab/Effects/FallingWind_Fx.prefab
-  artifactKey: Guid(ed77de5f169542c4da032fa6f11d21dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SlugGlove Flying Assets/Prefab/Effects/FallingWind_Fx.prefab using Guid(ed77de5f169542c4da032fa6f11d21dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897c485ded9c82d02d45fc5ff0dba72e') in 0.008441 seconds
+  Time since last request: 0.013934 seconds.
+  path: Assets/SlugGlove Flying Assets/Material/Boost Ring 2.mat
+  artifactKey: Guid(d1a8aca7cbdebc246a0198c637807e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Material/Boost Ring 2.mat using Guid(d1a8aca7cbdebc246a0198c637807e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6636662c961d9120b51c39282adee018') in 0.009496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/SlugGlove Flying Assets/Material/Grid 4.mat
+  artifactKey: Guid(0741061c26bbc1648ac0216d309160aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Material/Grid 4.mat using Guid(0741061c26bbc1648ac0216d309160aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3516725a9047a37601d636260444e4') in 0.007372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SlugGlove Flying Assets/Material/Grid 6.mat
+  artifactKey: Guid(ece255d4f20dadb448721db3d4cbe7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Material/Grid 6.mat using Guid(ece255d4f20dadb448721db3d4cbe7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac77012bc4c09a58400bf9f734fefcb') in 0.018681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/SlugGlove Flying Assets/Material/Grey.mat
+  artifactKey: Guid(6ad73ad64f6d2d6468b4d3dc19468a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Material/Grey.mat using Guid(6ad73ad64f6d2d6468b4d3dc19468a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068f6cfc085b90c828eef43109c588fe') in 0.006845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/SlugGlove Flying Assets/Material/Grid 1.mat
+  artifactKey: Guid(265a23775ac13ea419cf8637dd1f59e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Material/Grid 1.mat using Guid(265a23775ac13ea419cf8637dd1f59e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a55268cf1da72e8cac14b7741e76b7') in 0.007470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/SlugGlove Flying Assets/Material/Grid 2.mat
+  artifactKey: Guid(0ba364a02534ca348a40659dcb490cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Material/Grid 2.mat using Guid(0ba364a02534ca348a40659dcb490cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3f99f61d17d14a1486ecb5e0ae9bfd') in 0.009626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/SlugGlove Flying Assets/Material/Grid 5.mat
+  artifactKey: Guid(a70d15575f2c4ef4eb0368dc21c0e443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Material/Grid 5.mat using Guid(a70d15575f2c4ef4eb0368dc21c0e443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c292f2fbfdf9e638a6eb044b1a4e412') in 0.005252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/SlugGlove Flying Assets/Material/Grid.mat
+  artifactKey: Guid(35e4e89463ebfb64fb421d1ffe6ffff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Material/Grid.mat using Guid(35e4e89463ebfb64fb421d1ffe6ffff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a047937c4314fb88ccf620a63a4db5a5') in 0.005535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.673525 seconds.
+  path: Assets/SlugGlove Flying Assets/Material/Objects/Material.002.mat
+  artifactKey: Guid(e995b0816da51c54e90238cc60abf131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Material/Objects/Material.002.mat using Guid(e995b0816da51c54e90238cc60abf131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db17fa872cbe288f65418d3aa9d1524c') in 0.007796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.474320 seconds.
+  path: Assets/SlugGlove Flying Assets/Material/Player/Bird Face.mat
+  artifactKey: Guid(7bda631ec6e914b458e1adf6a8ecfc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Material/Player/Bird Face.mat using Guid(7bda631ec6e914b458e1adf6a8ecfc23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c32f5d6e77ecc215197fc1ef51fe1c') in 0.005042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SlugGlove Flying Assets/Material/Player/Outline.mat
+  artifactKey: Guid(48ddb47f21b4be94db12bdff61fcbd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Material/Player/Outline.mat using Guid(48ddb47f21b4be94db12bdff61fcbd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac1fbc697b35e1f8bf6ff45852ff942') in 0.004088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.408277 seconds.
+  path: Assets/SlugGlove Flying Assets/Material/Particles/Boost Fx.mat
+  artifactKey: Guid(96853b94927e311458101c3bf59ee909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Material/Particles/Boost Fx.mat using Guid(96853b94927e311458101c3bf59ee909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc743ba05a46821f612c63d2c68d36ea') in 0.008039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/SlugGlove Flying Assets/Material/Particles/Dust3D 2.mat
+  artifactKey: Guid(0befd961c80c3ce4fae51608ff0c442f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Material/Particles/Dust3D 2.mat using Guid(0befd961c80c3ce4fae51608ff0c442f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f8ae6236c3e5be3ad333f940fc4514') in 0.004985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SlugGlove Flying Assets/Material/Particles/Dust3D 4.mat
+  artifactKey: Guid(efbe2b74eb941314cb016fb68f941c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Material/Particles/Dust3D 4.mat using Guid(efbe2b74eb941314cb016fb68f941c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8291f243d34f5e2e190cc17009f9ae') in 0.005326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/SlugGlove Flying Assets/Material/Particles/Dust3D 1.mat
+  artifactKey: Guid(cd683d921eb41e247841f49c2b2c2b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Material/Particles/Dust3D 1.mat using Guid(cd683d921eb41e247841f49c2b2c2b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298aa927d2a1dd669283d47e562a24dc') in 0.004506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.972522 seconds.
+  path: Assets/SlugGlove Flying Assets/Prefab/Audio/Player/Bird Large Jump.prefab
+  artifactKey: Guid(6a1b25c0f8404e04fad34bf5e4c295d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Prefab/Audio/Player/Bird Large Jump.prefab using Guid(6a1b25c0f8404e04fad34bf5e4c295d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebbbcb9121b0ed1572a3fdf8032994e') in 0.010767 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
+  Time since last request: 0.841196 seconds.
+  path: Assets/SlugGlove Flying Assets/Prefab/Effects/FallingWind_Fx.prefab
+  artifactKey: Guid(ed77de5f169542c4da032fa6f11d21dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Prefab/Effects/FallingWind_Fx.prefab using Guid(ed77de5f169542c4da032fa6f11d21dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1950d53e8ab2e901e44108fab8f02dd2') in 0.015065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
   path: Assets/SlugGlove Flying Assets/Prefab/Effects/LandingFx.prefab
   artifactKey: Guid(a9c68653efdcbf2469e1dbe270d30c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SlugGlove Flying Assets/Prefab/Effects/LandingFx.prefab using Guid(a9c68653efdcbf2469e1dbe270d30c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea38febc20d98b99cbdd63888c332c03') in 0.008221 seconds
+Start importing Assets/SlugGlove Flying Assets/Prefab/Effects/LandingFx.prefab using Guid(a9c68653efdcbf2469e1dbe270d30c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63590c77b9dd3ce8ee2cf954e3671d02') in 0.005172 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 11
 ========================================================================
 Received Import Request.
-  Time since last request: 4.099862 seconds.
-  path: Assets/SlugGlove Flying Assets/Prefab/Audio/Player/Bird Large Jump.prefab
-  artifactKey: Guid(6a1b25c0f8404e04fad34bf5e4c295d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SlugGlove Flying Assets/Prefab/Audio/Player/Bird Large Jump.prefab using Guid(6a1b25c0f8404e04fad34bf5e4c295d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362ffe38c6cc6781d2b019200076ba98') in 0.006026 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/SlugGlove Flying Assets/Prefab/Effects/WalkingPuff.prefab
+  artifactKey: Guid(fb60f6b0edc9c944e964ffdf53c122f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Prefab/Effects/WalkingPuff.prefab using Guid(fb60f6b0edc9c944e964ffdf53c122f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49d96d6e827b48dfbb33ef222f74ade') in 0.006747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 13.511196 seconds.
+  path: Assets/SlugGlove Flying Assets/Texture/Character/Main Char Face.png
+  artifactKey: Guid(c9ca30ca7ece84f4fb0a2a2376d3cc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SlugGlove Flying Assets/Texture/Character/Main Char Face.png using Guid(c9ca30ca7ece84f4fb0a2a2376d3cc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b02832a123088774b46592c91b1463') in 0.017455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.259019 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Ground_Layer_01.terrainlayer
+  artifactKey: Guid(52ac57c2c14c60b4d88913beb57dce00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/Ground_Layer_01.terrainlayer using Guid(52ac57c2c14c60b4d88913beb57dce00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e0be15fe8ae449acc053935f124dd29') in 0.012338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Medieval_Village_Fence_05 1.prefab
+  artifactKey: Guid(cdaf37159c693ea4e97ab2ee5f12d958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Medieval_Village_Fence_05 1.prefab using Guid(cdaf37159c693ea4e97ab2ee5f12d958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37cc31c6398322cf7cb20e482987258') in 0.002372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Medieval_Village_Gate_01 1.fbx
+  artifactKey: Guid(fe0e66efb90310c4b81063d19da129b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Medieval_Village_Gate_01 1.fbx using Guid(fe0e66efb90310c4b81063d19da129b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f74f6527e9eea13649d571a66ee7ca0') in 0.073005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Medieval_Village_Fence_02 1.fbx
+  artifactKey: Guid(24da44c442496a0458025bfc14737a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Medieval_Village_Fence_02 1.fbx using Guid(24da44c442496a0458025bfc14737a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f347b658f385ce5093ead431ef8dba5e') in 0.014430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Medieval_Village_Fence_03 1.fbx
+  artifactKey: Guid(2afa802f2736adc40b60fe79d7bbb76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Medieval_Village_Fence_03 1.fbx using Guid(2afa802f2736adc40b60fe79d7bbb76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4a0dc8d0dcdedd747577f0198f2028') in 0.009653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Medieval_Village_Fence_01 1.fbx
+  artifactKey: Guid(bb9b2e893602d46409a85630c7954a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Medieval_Village_Fence_01 1.fbx using Guid(bb9b2e893602d46409a85630c7954a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61cddba9a4667995072424d4cf36a78c') in 0.013191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 5.893371 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Menhir_Rock_02.prefab
+  artifactKey: Guid(335946c4528dd1e4cb26cd4893d8ac70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Menhir_Rock_02.prefab using Guid(335946c4528dd1e4cb26cd4893d8ac70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd40a177072f47ec5a84eae6cab501a') in 0.636745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 0.786718 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_green.prefab
+  artifactKey: Guid(ee612942e9d74fe4baea785dfe2eaa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_green.prefab using Guid(ee612942e9d74fe4baea785dfe2eaa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7b70128f1e92ed733576984f2d64ea') in 0.839659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 1.236812 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead.prefab
+  artifactKey: Guid(3ad58da949d5de343b7c21cee04361ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_dead.prefab using Guid(3ad58da949d5de343b7c21cee04361ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77aae7217db2032a5ab610c7c259cc9') in 0.009100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_pears.prefab
+  artifactKey: Guid(a2e14d87834a62041a457f0dcc62b265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_pears.prefab using Guid(a2e14d87834a62041a457f0dcc62b265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8034aae13a2b9e6bf160778542433be9') in 0.015998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_dead_cut.prefab
+  artifactKey: Guid(7bbef63b5bd52bc4bb03cdc6cbb94a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_dead_cut.prefab using Guid(7bbef63b5bd52bc4bb03cdc6cbb94a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3083c86ce91900da7b8866142e7a8c') in 0.010972 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 9
 ========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green_cut.prefab
+  artifactKey: Guid(20613689bafb4544cb770f64d1a03714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green_cut.prefab using Guid(20613689bafb4544cb770f64d1a03714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a372eba442736968e55d50ac12ca8ec') in 0.014062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green.prefab
+  artifactKey: Guid(ceda9be89f930ac42b32ff5ae10598cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green.prefab using Guid(ceda9be89f930ac42b32ff5ae10598cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b8db9f5d460870293fa981244c7f14') in 0.013767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_dead.prefab
+  artifactKey: Guid(787d900468610e0488384494dc77d1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_dead.prefab using Guid(787d900468610e0488384494dc77d1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f763308ff692885a89c206314243df7') in 0.008537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_green.prefab
+  artifactKey: Guid(d90c349721b4e694fad80a76d87b2578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_green.prefab using Guid(d90c349721b4e694fad80a76d87b2578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ddbc7e85820aa60efa2ac5b931ee4a8') in 0.012959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
 Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image D:\Thesis Project\Thesis-project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Thesis Project\Thesis-project\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.671 seconds
-Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.019 seconds
-Domain Reload Profiling: 1689ms
-	BeginReloadAssembly (185ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (414ms)
-		LoadAssemblies (262ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (253ms)
-			TypeCache.Refresh (248ms)
-				TypeCache.ScanAssembly (236ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (1019ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (488ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (387ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3112 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3711.
-Memory consumption went from 191.2 MB to 191.1 MB.
-Total: 4.026800 ms (FindLiveObjects: 0.198900 ms CreateObjectMapping: 0.080700 ms MarkObjects: 3.652900 ms  DeleteObjects: 0.093200 ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (0.8 KB). Loaded Objects now: 3748.
+Memory consumption went from 146.7 MB to 146.7 MB.
+Total: 4.609400 ms (FindLiveObjects: 0.263000 ms CreateObjectMapping: 0.220100 ms MarkObjects: 4.072700 ms  DeleteObjects: 0.052800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -328,6 +533,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
